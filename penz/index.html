@@ -27,32 +27,29 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <div class="row collapse navbar-collapse ml-5" id="navbarResponsive">
                         <ul class="navbar-nav ml-0 w-100">
                             <li class="nav-item active">
-                            <a class="nav-link ml-5" href="#">Início
+                            <a class="nav-link" href="#">Todos os imóveis
                                     <span class="sr-only">(current)</span>
                                 </a>
                             </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="#">Venda</a>
+                            <li class="nav-item active">
+                            <a class="nav-link" href="#">Lançamentos
+                                    <span class="sr-only">(current)</span>
+                            </a>
                             </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="#">Locação Temporada</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="#">Locação Anual</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Lançamentos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Avalie</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contato</a>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">#sigatorres
+                                        <span class="sr-only">(current)</span>
+                                </a>
                             </li>
                         </ul>
+                    </div>
+                    <div class="nav-item active offset-2 mt-5 mt-md-0">
+                        <a class="nav-link" style="color: #17284e; border: #17284e solid 2px;"" href="#">Anuncie seu imóvel
+                            <span class="sr-only">(current)</span>
+                        </a>
                     </div>
                 </div>    
             </nav>
@@ -123,11 +120,11 @@
             </div>  
         </div>
         <div class="video-container">
-                <div class="color-overlay"></div>
-                <video autoplay loop muted width="100%">
-                    <source src="src/videos/torres.mp4" type="video/mp4">
-                </video>
-            </div>  
+            <video autoplay loop muted width="100%" class="d-none d-md-block">
+                <source src="src/videos/torres.mp4" type="video/mp4">
+            </video>
+            <img class="d-block d-md-none" src="src/imgs/torres.jpg" alt="" srcset="">
+        </div>  
     </div>
     <div class="container">
         <div class="destaques mx-0 mx-md-0">
@@ -137,7 +134,7 @@
                     <button class="col-2 d-none d-md-block" style="float: right; border: #17284e solid 3px; background-color: white; color: #17284e; font-weight:900; font-size: 120%">Ver todos</button>
                 </div> 
                 <hr>
-                <div id="destaquesCarousel" class="carousel slide container" data-ride="carousel">
+                <div id="destaquesCarousel" class="carousel slide container carousel-fade" data-ride="carousel">
                         <ol class="carousel-indicators">
                         <li data-target="#destaquesCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#destaquesCarousel" data-slide-to="1"></li>
@@ -579,9 +576,6 @@
             </div>
         </div>
     </div>  
-    <footer class="footer">
-    </footer>
-
     <script>
         $('#vendasCarousel').carousel({
             interval: 2000

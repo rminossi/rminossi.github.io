@@ -40,7 +40,7 @@ button:focus {
   padding: 120px 0; }
   @media (max-width: 767px) {
     .section_gap {
-      padding: 60px 0; } }
+      padding: 10px 0; } }
 
 .section_gap_top {
   padding-top: 70px; }
@@ -52,7 +52,7 @@ button:focus {
   padding-bottom: 120px; }
   @media (max-width: 767px) {
     .section_gap_bottom {
-      padding-bottom: 60px; } }
+      padding-bottom: 10px; } }
 
 img {
   max-width: 100%; }
@@ -121,8 +121,6 @@ img {
   background: -o-linear-gradient(90deg, #fff 0%, #fff 100%);
   background: linear-gradient(90deg, #fff 0%, #fff 100%); }
 
-/* End Gradient Area css
-============================================================================================ */
 .gradient_btn {
   display: inline-block;
   color: #fff;
@@ -309,10 +307,6 @@ img {
     border-radius: 50px;
     line-height: 40px; }
 
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Home Banner Area css
-============================================================================================ */
 .home_banner_area {
   z-index: 1;
   background: linear-gradient(#4eadf9, #26b4be);
@@ -348,10 +342,7 @@ img {
 .about_us_area {
   padding-bottom: 120px; }
 .frequently_area {
-  padding: 120px 0; }
-
-.frequently_area {
-  padding: 120px 0; }
+  padding: 0px 0; }
 
   .mb-20 {
   margin-bottom: 20px; }
@@ -476,7 +467,7 @@ h6 {
   background: -o-linear-gradient(to right, #149aeceb 0%, #149aeceb 100%);
   background: linear-gradient(to right, #149aeceb 0%, #149aeceb 100%);
   text-align: center;
-  margin-bottom: 40px; }
+  margin-bottom: 10px; }
   .pricing_item h3.p_title {
     font-size: 18px;
     color: #fff;
@@ -534,28 +525,16 @@ h6 {
       color: #22195e; }
 
 @media (max-width: 1619px) {
-  /* Main Menu Area css
-  ============================================================================================ */
   .header_area .navbar .search {
     margin-left: 40px; }
 
-  /* End Main Menu Area css
-  ============================================================================================ */ }
 @media (max-width: 1199px) {
-  /* Main Menu Area css
-  ============================================================================================ */
   .header_area .navbar .nav .nav-item {
     margin-right: 28px; }
 
-  /* End Main Menu Area css
-  ============================================================================================ */
-  /* Home Banner Area css
-  ============================================================================================ */
   .home_banner_area .banner_inner {
     padding: 100px 0px; }
 
-  /* End Home Banner Area css
-  ============================================================================================ */
   .header_area .navbar .primary_btn {
     margin-left: 40px; }
 
@@ -576,7 +555,7 @@ h6 {
     margin-bottom: 23px; }
 
   .header_area .navbar {
-    background: #000; }
+    background: #258bc7; }
 
   .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
     opacity: 1; }
@@ -895,10 +874,11 @@ h6 {
     line-height: 40px; }
 
   .section_gap {
-    padding: 60px 0; }
+    padding: 10px 0; }
 
   .section_gap_top {
-    padding-top: 60px; }
+    padding-top: 30px;
+    margin: 0 !important }
 
   .section_content {
     padding: 35px 10px 35px 35px !important; }

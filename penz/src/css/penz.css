@@ -37,10 +37,16 @@ ul li a {
 select {
   background-color: transparent;
   color: white;
-  border: none;
+  border: solid #474d50 1px;
 }
 option {
   color: black;
+}
+
+.select {
+  background-color: transparent;
+  color: white;
+  border: solid #474d50 1px;
 }
 
 button {
@@ -150,7 +156,7 @@ button {
   margin-left: -15px;
 }
 .single-footer-widget .copy_right_text p a {
-  color: #3fcaff;
+  color: #1e5779;
 }
 .single-footer-widget .social_widget {
   text-align: right;
@@ -162,7 +168,7 @@ button {
   height: 30px;
   width: 30px;
   line-height: 30px;
-  background: #3fc9ffa4;
+  background: #1e5779;
   margin-left: 6px;
   display: inline-block;
   text-align: center;

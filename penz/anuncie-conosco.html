@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Penz Imóveis - A escolha certa no litoral</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/penz.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./src/imgs/favico.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="src/js/penz.js"></script>
+  </head>
+  <body>
+    <div class="topo" style="height: 200px">
+      <div class="transp" style="background-color: #0e1a2194;height: 200px;width: 100%">
+        <div class="offset-8 d-none d-md-block  mt-3  row">
+          <h5 style="color: rgba(255, 255, 255, 0.568); ">Contato: (51) 3333-3333 / (51) 99999-9999</h5>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark static-top">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <img src="./src/imgs/logo-mobile.png" class="ml-0 d-none d-md-block" width="260" height="110" alt="">
+              <img src="./src/imgs/logo-mobile.png" class="ml-0 d-block d-md-none" width="174" height="74" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="row collapse navbar-collapse offset-1" id="navbarResponsive">
+              <ul class="navbar-nav ml-0 w-100">
+                <li class="nav-item active mt-md-2">
+                  <a class="nav-link" href="#">
+                    <div class="row">
+                      <i class="fas fa-home d-none d-md-block offset-md-5"></i>
+                    </div>
+                    <i class="fas fa-home d-inline d-md-none"></i>
+                    Todos os imóveis
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item active mt-md-2">
+                  <a class="nav-link" href="#">
+                    <div class="row">
+                      <i class="fas fa-star d-none d-md-block offset-md-5"></i>
+                    </div>
+                    <i class="fas fa-star d-inline d-md-none"></i>
+                    Lançamentos
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"><img src="src/imgs/siga.png" width="130px" height="50px" alt="">
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="nav-item active mt-5 mt-md-0 offset-md-0 offset-3">
+              <a class="nav-link animated infinite pulse delay-0s" style="#133448; color: #fff; border: #fff solid 3px;" " href=" #"=" #""="#" "">Anuncie seu imóvel
+                <span class="sr-only">(current)</span>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="video-container">
+        <img class="d-block" width="100%" src="src/imgs/torres.jpg" alt="" srcset="">
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mt-3">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-0" style="background-color: transparent">
+            <li class="breadcrumb-item">
+              <a href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Anuncie seu Imóvel</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <div class="container formulario">
+      <h3>Anunciar Imóvel</h3>
+      <form class="mx-2">
+        <h4 class="my-4">Dados do anunciante:</h4>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Nome</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Telefone</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group form-group col-md-6 col-md-6">
+            <label for="inputEmail4">Confirmar Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+        </div>
+        <h4 class="my-4">Localização do imóvel:</h4>
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="inputState">Estado</label>
+            <select id="inputState" class="form-control">
+              <option selected="selected">Escolha...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Cidade</label>
+            <select id="inputState" class="form-control">
+              <option selected="selected">Escolha um estado</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputEmail4">Bairro</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for=" inputstate" ="inputState" ">Logradouro</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group col-md-3">
+            <label for="inputState">Complemento</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group col-md-1">
+            <label for="inputState">Número</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputState">Cep</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+        </div>
+        <h4 class="my-4">Características do imóvel:</h4>
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="inputState">Finalidade</label>
+            <select id="inputState" class="form-control">
+              <option selected="selected">Escolha...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Tipo de imóvel</label>
+            <select id="inputState" class="form-control">
+              <option selected="selected">Escolha...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputEmail4">Edifício / Condomínio
+              <span style="font-size: 0.8rem">(caso haja)</span></label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-2">
+            <label for=" inputstate" ="inputState" ">Área total</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputState">Dormitórios</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputState">Banheiros</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputState">Suítes</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputState">Vagas</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Piscina
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Salão de Festas
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Churrasqueira
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Playground
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Cobertura
+              </label>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer_area mdb-color pt-1 mt-5">
+
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+
+        <!-- Footer links -->
+        <div class="row single-footer-widget text-center text-md-left mt-3 pb-0">
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Penz Imóveis</h6>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id ad quo adipisci quos praesentium natus, hic cum quae qui eos?</p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none">
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Imóveis</h6>
+            <p>
+              <a href="#!">Lançamentos</a>
+            </p>
+            <p>
+              <a href="#!">Venda</a>
+            </p>
+            <p>
+              <a href="#!">Aluguel Temporada</a>
+            </p>
+            <p>
+              <a href="#!">Aluguel Anual</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none">
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Mais acessados</h6>
+            <p>
+              <a href="#!">Anuncie seu imóvel</a>
+            </p>
+            <p>
+              <a href="#!">Selecionados para você</a>
+            </p>
+            <p>
+              <a href="#!">Siga Torres</a>
+            </p>
+            <p>
+              <a href="#!">Sobre a Penz</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none">
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-4 mx-0 mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
+            <p>
+              <i class="fas fa-home mr-1"></i>
+              Rua José Antônio Picoral, 80 - Centro, Torres, RS
+            </p>
+            <p>
+              <a href="#">
+                <i class="fas fa-envelope mr-1"></i>
+                penzimoveis@penzimoveis.com.br</p>
+            </a>
+            <p>
+              <i class="fas fa-phone mr-1"></i>
+              + 55 51 3626-1821</p>
+            <p>
+              <i class="fab fa-whatsapp mr-1"></i>
+              + 55 51 98536-3072</p>
+            <p>
+              <a href="">
+                <i class="fab fa-facebook-f mr-1"></i>
+                facebook.com/penzimoveis</p>
+            </a>
+            <p>
+              <a href="">
+                <i class="fab fa-instagram mr-1"></i>
+                @penzimoveis</p>
+            </a>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Footer links -->
+
+        <hr>
+
+        <!-- Grid row -->
+        <div class="row d-flex align-items-center">
+
+          <!-- Grid column -->
+          <div class="col-10 offset-2">
+
+            <!--Copyright-->
+            <p>Copyright &copy;<script>
+                document.write(new Date().getFullYear());
+              </script>
+              Penz Imóveis
+              <br class="d-block d-md-none">
+              | Todos os direitos reservados |
+              <br class="d-block d-md-none">
+              Desenvolvido por
+              <a href="https://www.github.com/rminossi" style="color: white" target="_blank">@rminossi</a>
+            </p>
+          </div>
+        </div>
+        <!-- Grid row -->
+
+      </div>
+      <!-- Footer Links -->
+
+    </footer>
+    <!-- Footer -->
+  </body>

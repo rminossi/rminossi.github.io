@@ -144,7 +144,7 @@
                   <div id="vendasCarousel" class="carousel imoveisCarousel slide w-100" data-ride="carousel">
                     <div class="carousel-inner vendasCarousel-inner w-100" role="listbox">
                       <div class="carousel-item active">
-                        <div class="col-md-4">
+                        <div class="col-12">
                           <ul class="carousel-indicators list-inline mx-auto border px-2">
                             <li class="list-inline-item active">
                               <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel">
@@ -170,7 +170,7 @@
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <div class="col-md-4">
+                        <div class="col-12">
                           <ul class="carousel-indicators list-inline mx-auto border px-2">
                             <li class="list-inline-item">
                               <a id="carousel-selector-4" data-slide-to="4" data-target="#myCarousel">
@@ -196,7 +196,7 @@
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <div class="col-md-4">
+                        <div class="col-12">
                           <ul class="carousel-indicators list-inline mx-auto border px-2">
                             <li class="list-inline-item">
                               <a id="carousel-selector-8" data-slide-to="8" data-target="#myCarousel">
@@ -340,7 +340,7 @@
     <div class="container pt-5">
       <div class="row">
         <div class="col-lg-10 offset-lg-1">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3477.859164733378!2d-49.73337118569332!3d-29.345122931172757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1562248656490!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen="allowfullscreen"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3477.859164733378!2d-49.73337118569332!3d-29.345122931172757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95226907c2ba427f%3A0x43cde5646b396557!2sCondominio+Residencial+da+Lagoa!5e0!3m2!1spt-BR!2sbr!4v1562251221801!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen="allowfullscreen"></iframe>
         </div>
       </div>
     </div>
@@ -348,7 +348,7 @@
       $('#vendasCarousel').carousel({interval: 300000})
 
       $('.carousel .carousel-item').each(function () {
-        var minPerSlide = 3;
+        var minPerSlide = 4;
         var next = $(this).next();
         if (!next.length) {
           next = $(this).siblings(':first');

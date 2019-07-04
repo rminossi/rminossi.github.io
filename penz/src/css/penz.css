@@ -164,6 +164,18 @@ footer a {
   text-decoration: none;
   color: #fff !important;
 }
+
+input[type="file"]::-webkit-file-upload-button {
+  border: none;
+  color: #fff;
+  background: #1f2b43;
+  cursor: pointer;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+
 .single-footer-widget {
   padding: 30px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);

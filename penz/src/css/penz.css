@@ -166,7 +166,7 @@ footer a {
 }
 
 .offset-list {
-  margin-left: 12%;
+  margin-left: 9%;
 }
 
 @media (max-width: 420px) {
@@ -175,6 +175,16 @@ footer a {
   }
   .card-text {
     font-size: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .offset-list {
+    margin-left: 23%;
+    margin-top: 20px;
+  }
+  .card-text {
+    font-size: 18px;
   }
 }
 

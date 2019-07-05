@@ -165,6 +165,10 @@ footer a {
   color: #fff !important;
 }
 
+.offset-list {
+  margin-left: 12%;
+}
+
 input[type="file"]::-webkit-file-upload-button {
   border: none;
   color: #fff;

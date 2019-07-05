@@ -169,9 +169,9 @@ footer a {
   margin-left: 12%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .offset-list {
-    margin-left: 7%;
+    margin-left: 2%;
   }
 }
 

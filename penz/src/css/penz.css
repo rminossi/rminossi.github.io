@@ -173,6 +173,9 @@ footer a {
   .offset-list {
     margin-left: 2%;
   }
+  .card-text {
+    font-size: 15px;
+  }
 }
 
 input[type="file"]::-webkit-file-upload-button {

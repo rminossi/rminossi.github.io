@@ -169,6 +169,12 @@ footer a {
   margin-left: 12%;
 }
 
+@media (max-width: 400px) {
+  .offset-list {
+    margin-left: 7%;
+  }
+}
+
 input[type="file"]::-webkit-file-upload-button {
   border: none;
   color: #fff;

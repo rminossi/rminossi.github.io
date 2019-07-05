@@ -171,7 +171,7 @@ footer a {
 
 @media (max-width: 600px) {
   .offset-list {
-    margin-left: 7%;
+    margin-left: 3%;
   }
   .card-text {
     font-size: 15px;
